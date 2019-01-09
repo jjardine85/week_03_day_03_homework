@@ -23,7 +23,10 @@ Artist.all()
 Album.all()
 
 album1.title = 'Love me do'
-album1.update() 
+album1.update()
+
+artist1.name = 'The bootleg Beatles'
+artist1.update()
 
 binding.pry
 nil
