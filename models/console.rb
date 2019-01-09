@@ -17,6 +17,7 @@ album2 = Album.new({'title' => 'The Black Album', 'genre' => '60s',
   'artist_id' => artist1.id})
 
 album1.save()
+album2.save()
 
 Artist.all()
 Album.all()
