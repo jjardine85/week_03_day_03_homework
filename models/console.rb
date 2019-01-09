@@ -1,7 +1,7 @@
 require("pry")
 require_relative("../db/sql_runner")
-require_relative("./albums")
-require_relative("./artists")
+require_relative("./album")
+require_relative("./artist")
 #
 # album1 = Album.new({'title' => 'The White Album', ,
 #   })

@@ -1,6 +1,6 @@
 require('pg')
 require_relative("../db/sql_runner")
-require_relative("./albums.rb")
+require_relative("./album.rb")
 
 class Artist
 
@@ -51,5 +51,10 @@ class Artist
       SqlRunner.run(sql, values)
   end
 
+  def delete()
+    sql = "DELETE FROM artists where id = $1"
+    values = [@id]
+    SqlRunner.run(sql, values)
+  end
 
 end
