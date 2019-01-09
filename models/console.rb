@@ -22,5 +22,8 @@ album2.save()
 Artist.all()
 Album.all()
 
+album1.title = 'Love me do'
+album1.update() 
+
 binding.pry
 nil
